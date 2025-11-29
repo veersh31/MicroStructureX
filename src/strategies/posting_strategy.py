@@ -2,7 +2,7 @@
 Passive posting strategy - places limit orders to earn spread.
 """
 from decimal import Decimal
-from typing import List
+from typing import List, Optional
 import time
 
 from .base_strategy import ExecutionStrategy
